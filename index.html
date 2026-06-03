@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obscura Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="browser-container">
+        <div id="toolbar">
+            <button id="back-btn" class="nav-btn">←</button>
+            <button id="forward-btn" class="nav-btn">→</button>
+            <button id="refresh-btn" class="nav-btn">⟳</button>
+            <input type="text" id="address-bar" placeholder="Search Google or type a URL (e.g., wikipedia.org)">
+            <button id="go-btn">Go</button>
+        </div>
+
+        <div id="viewport-container">
+            <iframe id="viewport" src="https://www.bing.com"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
